@@ -13,3 +13,5 @@
   会生成commit
 配合一些指令做操作：
 git status	   查看状态
+git checkout -- biji.txt    撤销工作区修改
+git restore biji.txt    撤销工作区的版本
