@@ -1,0 +1,15 @@
+工作区	暂存区	仓库
+初始化仓库
+1.直接远程克隆(空文件夹，克隆下来的项目直接就是仓库)
+(git clone git@github.com:zhangyujie-z/demo.git)
+
+2.git init (自己初始化仓库，是否为空文件夹都可以)
+
+提交内容到仓库
+1.git add *	内容提交到了暂存区
+  (git add *.html 	git add/test/	git add biji.txt)
+
+2.git commit -m 'message'	提交到仓库
+  会生成commit
+配合一些指令做操作：
+git status	   查看状态
